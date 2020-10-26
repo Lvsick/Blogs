@@ -38,11 +38,12 @@ module.exports = {
     sidebar: {
       '/pages/artical/': [
         {
-          title: '笔记', // 一级菜单名称
+          title: '笔记整理', // 一级菜单名称
           collapsable: false, // false为默认展开菜单, 默认值true是折叠,
           sidebarDepth: 1, //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
           children: [
-            ['artical1.md', '关于'], //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+            ['artical1.md', 'HTTP请求'], //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+            ['artical2.md', '从输入URL到页面展示，这中间发生了什么？']
           ]
         },
       ],
