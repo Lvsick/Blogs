@@ -23,7 +23,7 @@ module.exports = {
         text: '分类', //默认显示
         ariaLabel: '分类', //用于识别的label
         items: [
-          { text: '笔记', link: '/pages/artical' },
+          { text: '笔记', link: '/pages/artical/artical1.md' },
           //点击标签会跳转至link的markdown文件生成的页面
           { text: '琐碎', link: '/pages/other/other1.md' }
         ]
