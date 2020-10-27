@@ -19,16 +19,15 @@ module.exports = {
       { text: '首页', link: '/' },
 
       //格式二：添加下拉菜单，link指向的文件路径
-      {
-        text: '分类', //默认显示
-        ariaLabel: '分类', //用于识别的label
-        items: [
-          { text: '笔记', link: '/pages/artical/artical1.md' },
-          //点击标签会跳转至link的markdown文件生成的页面
-          { text: '琐碎', link: '/pages/other/other1.md' }
-        ]
-      },
-      { text: '功能演示', link: '/pages/folder1/test3.md' },
+      { text: '笔记', link: '/pages/artical/artical1.md' },
+      { text: '琐碎', link: '/pages/other/other1.md' },
+      // {
+      //   text: '分类', //默认显示
+      //   ariaLabel: '分类', //用于识别的label
+      //   items: [
+      //     //点击标签会跳转至link的markdown文件生成的页面
+      //   ]
+      // },
 
       //格式三：跳转至外部网页，需http/https前缀
       { text: 'Github', link: 'https://github.com/' }
@@ -45,7 +44,7 @@ module.exports = {
             ['artical1.md', 'HTTP请求'], //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
             ['artical2.md', '从输入URL到页面展示，这中间发生了什么？']
           ]
-        },
+        }
       ],
       '/pages/other/': [
         {
@@ -53,10 +52,10 @@ module.exports = {
           collapsable: false, // false为默认展开菜单, 默认值true是折叠,
           sidebarDepth: 1, //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
           children: [
-            ['other1.md', '为什么建这个博客'], //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+            ['other1.md', '为什么建这个博客'] //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
           ]
-        },
-      ],
+        }
+      ]
 
       //...可添加多个不同的侧边栏，不同页面会根据路径显示不同的侧边栏
     }
