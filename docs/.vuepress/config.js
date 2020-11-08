@@ -1,7 +1,7 @@
 module.exports = {
   base: '/blogs/',
   title: 'Lvsick', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
-  description: '垃圾前端菜的前端记录', // meta 中的描述文字，用于SEO
+  description: 'Lvsick的前端记录', // meta 中的描述文字，用于SEO
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
     [
@@ -42,7 +42,8 @@ module.exports = {
           sidebarDepth: 1, //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
           children: [
             ['artical1.md', 'HTTP请求'], //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
-            ['artical2.md', '从输入URL到页面展示，这中间发生了什么？']
+            ['artical2.md', '从输入URL到页面展示，这中间发生了什么？'],
+            ['artical3.md', 'React事件处理函数绑定的相关问题']
           ]
         }
       ],
