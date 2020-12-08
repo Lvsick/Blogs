@@ -43,7 +43,8 @@ module.exports = {
           children: [
             ['artical1.md', 'HTTP请求'], //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
             ['artical2.md', '从输入URL到页面展示，这中间发生了什么？'],
-            ['artical3.md', 'React事件处理函数绑定的相关问题']
+            ['artical3.md', 'React事件处理函数绑定的相关问题'],
+            ['artical4.md', '浅拷贝与深拷贝'],
           ]
         }
       ],
