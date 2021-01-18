@@ -45,7 +45,8 @@ module.exports = {
             ['artical2.md', '从输入URL到页面展示，这中间发生了什么？'],
             ['artical3.md', 'React事件处理函数绑定的相关问题'],
             ['artical4.md', '浅拷贝与深拷贝'],
-            ['artical5.md', '请求头与响应头']
+            ['artical5.md', '请求头与响应头'],
+            ['artical6.md', 'flutter解析json数据']
           ]
         }
       ],
